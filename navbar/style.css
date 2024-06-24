@@ -55,3 +55,58 @@ header{
     padding: 0;
     margin: 0;
 }
+
+/* .main_div{
+    height: 500px;
+    width: 100%;
+    background-color: #133d59;
+} */
+ section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+.para1{
+    box-sizing: 500px;
+    height: 500px;
+    width: 1100px;
+    background-color: red;
+    margin: 10% 20%;
+    
+}
+.para1 h1{
+    width: 400px;
+    color: #fafafa;
+    font-weight: 900;
+    
+}
+.para1 p{
+    width: 400px;
+    color: #fafafa;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+.para1 .btn{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 3.5rem;
+
+}
+.para1 img{
+    float: right;
+    /* height: 100%; */
+    /* width: 60%; */
+}
+@media (max-width: 768px) {
+    .para1 h1 {
+        font-size: 1.2em;
+    }
+    .para1 p {
+        font-size: 0.9em;
+    }
+    .btn {
+        font-size: 0.9em;
+    }
+}
